@@ -12,7 +12,8 @@ p {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    width: 40%;
 }
 
 body {
