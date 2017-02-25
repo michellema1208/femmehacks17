@@ -16,6 +16,12 @@ p {
 	text-align: center;
 }
 
+h3 {
+	color: black;
+	font: "Times New Roman", serif;
+	text-align: center;
+}
+
 img {
     display: block;
     margin: auto;
