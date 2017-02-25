@@ -60,11 +60,6 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
-form { display: table;	}
-p     { display: table-row;  }
-label { display: table-cell; }
-input { display: table-cell; }
-
 
 #contact_form {
 	text-align: center; 
