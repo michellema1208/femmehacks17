@@ -10,7 +10,7 @@ p {
 	font: "Times New Roman", serif;
 }
 
-img.center {
+img {
     display: block;
     margin: 0 auto;
 }
