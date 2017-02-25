@@ -3,6 +3,7 @@ h1 {
 	color: white;
 	font: "Times New Roman", serif;
 	text-align: center;
+	display: inline-block;
 }
 
 h2 {
