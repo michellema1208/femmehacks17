@@ -5,9 +5,14 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
+
 p {
 	color: black;
 	font: "Times New Roman", serif;
+	text-align: center;
 }
 
 img {
