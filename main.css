@@ -19,3 +19,20 @@ img {
 body {
 	background-color: lightblue;
 }
+
+.menu {
+	float: right;
+	font-family: "Georgia", serif; 
+} 
+
+.menu li {
+	display: inline; 
+	border: 2px; 
+	border-style: solid; 
+	border-color: black; 
+	margin: 5px; 
+}
+
+.menu a {
+	color: black; 
+} 
