@@ -41,3 +41,8 @@ body {
 .menu-wrap a {
 	color: black; 
 } 
+
+#search {
+	float: right;
+	display: inline-block;
+}
