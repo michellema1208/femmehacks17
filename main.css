@@ -1,0 +1,37 @@
+
+
+h1 {
+	color: purple;
+	font-size: 50px;
+	font-family: 'Tmes New Roman', serif;
+
+}
+
+p {
+	color: gold;
+	text-align: center;
+}
+
+#Blue {
+	color: blue;
+}
+
+#Purple {
+	color: purple;
+}
+#Teal {
+	color: teal;
+}
+
+img {
+	border: 3px;
+	border-style: dashed;
+	border-color: black;
+	width: 45%;
+	margin-left: 15%;
+
+}
+
+body {
+	background: green;
+}
