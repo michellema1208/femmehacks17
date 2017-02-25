@@ -60,6 +60,9 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
+form.searchbox_dem {
+	float: right;
+}
 
 
 #contact_form {
