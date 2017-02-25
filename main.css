@@ -54,3 +54,8 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
+
+ul.topnav {
+	display: inline-bloce;
+	list-style-type: none;
+}
