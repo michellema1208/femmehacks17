@@ -25,22 +25,6 @@ body {
 	background-color: lightblue;
 }
 
-.menu-wrap {
-	float: right;
-	font-family: "Georgia", serif; 
-} 
-
-.menu-wrap li {
-	display: inline; 
-	border: 2px; 
-	border-style: solid; 
-	border-color: black; 
-	margin: 5px; 
-}
-
-.menu-wrap a {
-	color: black; 
-} 
 
 #search {
 	float: right;
