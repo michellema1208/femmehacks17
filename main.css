@@ -2,13 +2,17 @@
 h1 {
 	color: white;
 	font: "Times New Roman", serif;
-	font-size: 10px;
 	text-align: center;
 }
 
 p {
 	color: black;
 	font: "Times New Roman", serif;
-	font-size: 
+}
+
+img {
+	border: 3px;
+	width: 45%;
+	align-content: center;
 
 }
