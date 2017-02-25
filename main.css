@@ -10,10 +10,9 @@ p {
 	font: "Times New Roman", serif;
 }
 
-img {
-	width: 45%;
-	margin: 0 auto;
-
+img.center {
+    display: block;
+    margin: 0 auto;
 }
 
 body {
