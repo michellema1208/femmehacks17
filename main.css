@@ -49,8 +49,9 @@ ul.topnav {
 	text-align:center;
 }
 
-ul.topnav li {float: left;
-	text-align: center;
+ul.topnav li {
+float: center;
+display: inline;
 }
 
 ul.topnav li a {
