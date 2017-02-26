@@ -7,6 +7,9 @@ var config = {
 };
 firebase.initializeApp(config);
 
+var EVENTS_PER_PAGE = 5;
+
+var current_page = 0;
 var ref = firebase.database().ref("events/");
 
 function post_event(event_data) {
@@ -19,8 +22,8 @@ function post_event(event_data) {
   );
 }
 
-function load_events() {
-  ref.orderByKey().once('value')
+function load_events(first, last) {
+  ref.orderByChild('priority').startAt(first).endAt(last).once('value')
   .then(function(dataSnapshot) {
     var data = dataSnapshot.val();
     for(var key in data) {
@@ -29,6 +32,31 @@ function load_events() {
   });
 }
 
+function load_buttons(){
+  
+}
+
+function load_data() {
+  var first = current_page * EVENTS_PER_PAGE;
+  var last = (current_page*EVENTS_PER_PAGE) + (EVENTS_PER_PAGE - 1);
+  load_events(first, last);
+  load_buttons();
+}
+
+function next_page(){
+  $('#events').html('');
+  current_page++;
+  load_data();
+}
+
+function previous_page() {
+  $('#events').html('');
+  current_page--;
+  load_data();
+}
+
+
+
 $(document).ready(function() {
-  load_events();
+  load_data();
 })
