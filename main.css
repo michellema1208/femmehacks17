@@ -40,7 +40,7 @@ body {
 }
 
 .topNav {
-	text-align:center;
+	
 }
 
 
@@ -50,6 +50,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+	text-align:center;
 }
 
 ul.topnav li {float: left;}
