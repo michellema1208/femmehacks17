@@ -9,7 +9,7 @@ firebase.initializeApp(config);
 
 var EVENTS_PER_PAGE = 5;
 
-var current_page = 1;
+var current_page = 2;
 var ref = firebase.database().ref("events/");
 
 function post_event(event_data) {
