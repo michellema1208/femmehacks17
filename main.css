@@ -39,6 +39,11 @@ body {
 	display: inline-block;
 }
 
+.topNav {
+	text-align:center;
+}
+
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
