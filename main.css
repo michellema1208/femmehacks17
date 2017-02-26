@@ -1,7 +1,7 @@
 
 h1 {
 	color: white;
-	font: "Times New Roman", serif;
+	font-family: monaco, Consolas, "Lucida Console", monospace;
 	text-align: center;
 }
 
